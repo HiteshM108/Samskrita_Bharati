@@ -3,17 +3,13 @@
     width: 100%;
 }
 
-.navbar-brand {
-    text-decoration: underline aliceblue;
-}
-
 .list-group {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.btn-group btn-group-lg btn-block {
+.buttons {
     margin-top: 70px;
     margin-left: 10px;
     margin-right: 10px;

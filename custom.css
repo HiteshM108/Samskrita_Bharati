@@ -1,16 +1,16 @@
-* {
-    background-color: aliceblue;
-}
-
 .name_tag {
     text-align: center;
     width: 100%;
 }
 
+.intro_text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: tomato;
+}
+
 .thanks {
-    text-decoration: underline rgb(116, 96, 71);
     color: coral;
-    margin-top: 10px;
     text-align: center;
 }
 
@@ -39,7 +39,61 @@
     border-bottom: 0.1pt solid darkgrey;
 }
 
+.instructions {
+    color: tomato;
+    margin-top: 20px;
+}
+
 .about_me {
+    color: tomato;
+    text-align: center;
     width: 100%;
     border-bottom: 0.1pt solid darkgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.img_wrapper {
+    margin-top: 25px;
+    width: 40%;
+    position: relative;
+    animation: pic_move 2s infinite;
+}
+
+@keyframes pic_move {
+    from {
+        left: 375px;
+    }
+    to {
+        left: 900px;
+    }
+}
+
+.footer {
+    border-top: 0.1pt solid #a0aec0;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer_text {
+    border-top: 0.1pt solid #a0aec0;
+    color: #4a5568;
+    padding-top: 5px;
+}
+
+#thank_you,
+#teachers {
+    padding: 5px;
+}
+
+#thank_you {
+    padding-top: 10px;
+}
+
+#teachers {
+    padding-bottom: 10px;
 }
