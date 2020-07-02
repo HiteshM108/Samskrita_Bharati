@@ -1,0 +1,45 @@
+* {
+    background-color: aliceblue;
+}
+
+.name_tag {
+    text-align: center;
+    width: 100%;
+}
+
+.thanks {
+    text-decoration: underline rgb(116, 96, 71);
+    color: coral;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    border-top: 0.1pt solid #a0aec0;
+    width: 100%;
+}
+
+.footer_text {
+    font-size: large;
+    text-align: center;
+    color: #4a5568;
+    padding-top: 5px;
+}
+
+.intro {
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 0.1pt solid darkgrey;
+}
+
+.about_me {
+    width: 100%;
+    border-bottom: 0.1pt solid darkgrey;
+}
