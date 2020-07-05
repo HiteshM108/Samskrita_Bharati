@@ -1,3 +1,7 @@
+* {
+    font-family: cursive;
+}
+
 .name_tag {
     text-align: center;
     width: 100%;
@@ -13,4 +17,9 @@
     margin-top: 70px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.audio_file {
+    width: 200px;
+    height: 15px;
 }

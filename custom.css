@@ -4,8 +4,8 @@
 }
 
 .intro_text {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: tomato;
 }
 
@@ -30,6 +30,11 @@
     text-align: center;
     color: #4a5568;
     padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+* {
+    font-family: cursive;
 }
 
 .intro {
@@ -82,7 +87,8 @@
 .footer_text {
     border-top: 0.1pt solid #a0aec0;
     color: #4a5568;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 #thank_you,
