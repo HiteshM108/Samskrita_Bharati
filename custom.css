@@ -66,16 +66,6 @@
     margin-top: 25px;
     width: 40%;
     position: relative;
-    animation: pic_move 2s infinite;
-}
-
-@keyframes pic_move {
-    from {
-        left: 375px;
-    }
-    to {
-        left: 900px;
-    }
 }
 
 .footer {
